@@ -1,0 +1,102 @@
+.saas-container {
+  min-height: 100vh;
+  background-color: #111827;
+  color: #f3f4f6;
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.saas-max-width {
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.saas-header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #1f2937;
+  padding-bottom: 1rem;
+}
+
+.saas-title {
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: #60a5fa;
+}
+
+.saas-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .saas-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.drop-zone {
+  border: 2px dashed #374151;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(31, 41, 55, 0.5);
+  cursor: pointer;
+}
+
+.drop-zone:hover {
+  border-color: #3b82f6;
+}
+
+.textarea-box {
+  width: 100%;
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+  color: #93c5fd;
+  resize: vertical;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.results-card {
+  background-color: rgba(31, 41, 55, 0.4);
+  border: 1px solid #1f2937;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.styled-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  margin-top: 1rem;
+}
+
+.styled-table th, .styled-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #1f2937;
+}
+
+.styled-table th {
+  color: #9ca3af;
+}
